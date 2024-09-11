@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My PHP project</h1>
+        <h1>Welcome to My PHP project  8888</h1>
         <p><?php echo "Current date is: " . date ('Y-m-d'); ?></p>
         
         <form method="post" action="index.php">
