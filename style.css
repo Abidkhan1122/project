@@ -1,5 +1,4 @@
-<style>
-        body {
+body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -13,10 +12,14 @@
             background: #fff;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1 {
-            color: #333;
-        }
+        
         p {
             line-height: 1.6;
         }
-    </style>
+        .heading{
+            color: aqua;
+        }
+
+
+
+        
