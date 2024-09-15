@@ -9,7 +9,7 @@ body {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
-            background: #fff;
+            background: #ffffff;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         
@@ -17,8 +17,14 @@ body {
             line-height: 1.6;
         }
         .heading{
-            color: aqua;
-        }
+            color: rgb(37, 21, 210);
+         }
+
+       .introduction{
+        color: rgb(64, 43, 226);
+
+
+         }
 
 
 

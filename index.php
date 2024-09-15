@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="container">
+
         <h1 class="heading">Welcome to My PHP project  </h1>
+        <h2 class="introduction"> This is a front page </h2>
+
         <p><?php echo "Current date is: " . date ('Y-m-d'); ?></p>
         
         <form method="post" action="index.php">
@@ -20,9 +24,16 @@
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $name = htmlspecialchars($_POST['name']);
-            echo "<p>Hello, " . $name . "!</p>";
+            echo "<p>Welcome in my project, " . $name . "!</p>";
         }
+        
+        
+    
+    
         ?>
+         <br>
+          <img src="img.jpg" height="250">
+
     </div>
 </body>
 </html>
